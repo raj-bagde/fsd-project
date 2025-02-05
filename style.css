@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    /* overflow: auto; */
+}
+
+.d1 {
+    width: 100%;
+    height: 100%;
+    padding:5px 0 5px 0;
+    background-color: rgb(2, 2, 46);
+}
+
+.right-side {
+    /* border: 1px solid white; */
+    width: 100%;
+    height: 30%;
+
+}
+
+img {
+    height: 100%;
+    width: 100%;
+
+}
+
+.heading {
+    padding: 10px;
+    color: white;
+    font-size: 23px;
+}
+
+.left-side {
+    width: 100%;
+    height: 60%;
+    /* border: 1px solid white; */
+}
+
+
+.inner-cont {
+    width: 100%;
+    height: 100%;
+    padding: 15px 10px 15px 10px;
+
+
+}
+
+.section {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    /* border: 1px solid red; */
+    background-color: white;
+
+}
+
+.design {
+    display: flex;
+
+}
+
+.icon {
+    padding: 10px;
+    font-size: 25px;
+}
+
+.para {
+    padding: 10px;
+    color: black;
+}
+
+p {
+    opacity: 0.5;
+}
+
+.support{
+    padding-right: 20px;
+}
+
+
+
+
+
+
+
+ @media (min-width : 1024px) {
+    .d1 {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(2, 2, 46);
+        display: flex;
+    }
+
+    .right-side {
+        width: 50%;
+        height: 100%;
+
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
+
+    }
+
+
+
+
+    .heading {
+        padding: 20px;
+        color: white;
+        font-size: 30px;
+    }
+
+    .left-side {
+        width: 100%;
+        height: 60%;
+        
+    }
+
+
+    .inner-cont {
+        width: 100%;
+        height: 100%;
+        padding: 15px;
+
+
+    }
+
+    .section {
+        width: 100%;
+        height: 60%;
+        border-radius: 10px;
+        background-color: white;
+
+    }
+
+    .design {
+        display: flex;
+    
+    }
+
+    .icon {
+        padding: 10px;
+        font-size: 50px;
+    }
+
+    .para {
+        padding: 10px;
+        color: black;
+        font-size: 20px;
+    }
+
+    .support{
+        padding-right: 28px;
+    }
+    
+} 
